@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.main {
+  width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+form button {
+  padding: 8px 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+.tabs {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.tabs button {
+  border: none;
+  background: none;
+  margin: 0 5px;
+  color: gray;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.tabs .on {
+  color: #007bff;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f7f7f7;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+li:hover {
+  background: #eaeaea;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+li.done input {
+  text-decoration: line-through;
+  color: #999;
+}
+
+li input {
+  flex: 1;
+  border: none;
+  background: none;
+  font-size: 14px;
+  color: #333;
+}
+
+li button {
+  margin-left: 8px;
+  padding: 3px 6px;
+  border: none;
+  background: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+li button:hover {
+  text-decoration: underline;
+}
